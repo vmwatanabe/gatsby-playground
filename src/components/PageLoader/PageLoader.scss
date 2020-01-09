@@ -1,0 +1,9 @@
+.page-loader {
+  display: flex;
+  align-items: center;
+  height: 100%;
+
+  &__loader {
+    margin: auto;
+  }
+}

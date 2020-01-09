@@ -1,0 +1,11 @@
+.user-item {
+  border: 1px solid #030303;
+  border-radius: 4px;
+  padding: 16px;
+  &__user-name {
+    display: block;
+    font-size: 21px;
+  }
+  &__name {
+  }
+}

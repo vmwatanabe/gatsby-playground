@@ -1,0 +1,18 @@
+.header {
+  height: 64px;
+  background-color: #d8d8d8;
+  padding: 32px;
+
+  .info-container {
+    &__main-title {
+      font-size: 24px;
+      color: #303030;
+      display: block;
+      font-weight: 700;
+    }
+    &__sub-title {
+      display: block;
+      margin-top: 8px;
+    }
+  }
+}
