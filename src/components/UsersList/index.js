@@ -12,12 +12,7 @@ const UsersList = ({ users }) => {
 
   const getUsers = () => users.map(elem => <UserItem user={elem} />);
 
-  return (
-    <div className="users-list">
-      <h1>Lista de usuários</h1>
-      <div>{getUsers()}</div>
-    </div>
-  );
+  return <div className="users-list">{getUsers()}</div>;
 };
 
 export default UsersList;
