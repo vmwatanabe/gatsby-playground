@@ -1,0 +1,35 @@
+.user-details {
+  .user-info {
+    &__name {
+      text-transform: uppercase;
+      font-size: 48px;
+      font-weight: bold;
+    }
+  }
+  .user-contact {
+    display: flex;
+    align-items: flex-start;
+
+    &__item {
+      &--has-icon {
+        display: flex;
+        align-items: center;
+
+        svg {
+          margin-right: 8px;
+        }
+      }
+    }
+  }
+}
+
+.two-columns {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.column {
+  display: flex;
+  flex-direction: column;
+}

@@ -50,7 +50,6 @@ class Home extends Component {
 }
 
 const mapStateToProps = ({ users }) => ({
-  info: users.info,
   users: users.users,
   loading: users.loading
 });
